@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/db_example'
+    username: root
+    password: root
+
+org:
+  jobrunr:
+    background-job-server:
+      enabled: true
+    dashboard:
+      enabled: true
+    database:
+      tablePrefix: db_example.
